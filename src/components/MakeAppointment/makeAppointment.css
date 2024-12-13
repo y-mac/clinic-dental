@@ -1,0 +1,159 @@
+.appointment-section {
+    width: 100%;
+    max-width: 1512px;
+    margin: 0 auto;
+    padding: 3em 0;
+    box-sizing: border-box;
+}
+
+.appointment-section__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-flow: column wrap;
+    border-bottom: 1px solid black;
+    margin: 0 0 3em 0;
+}
+
+.appointment-section__wrapper {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1296px;
+}
+
+.appointment-section__body {
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+    grid-gap: 1em;
+}
+
+.appointment-section__header .left__headline{
+   font-family: 'Inter', sans-serif;
+   font-weight: 700;
+   font-size: 56px; 
+}
+
+.appointment-section__header .left__headline b{
+    color:var(--yellow);
+ }
+
+.appointment-section__header .right__headline{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 48px; 
+    margin-bottom: -0.15em;
+ }
+
+ .appointment-section__header .right__headline b{
+    width: 365px;
+    display: block;
+    background: white;
+    text-align: right;
+ }
+
+.appointment-section__figure img{
+    width: 100%;
+    object-fit: cover;
+  }
+
+:where(.css-dev-only-do-not-override-142vneq).ant-form {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+  
+:where(.css-dev-only-do-not-override-142vneq).ant-row {
+ display: flex;
+ flex-flow: column wrap !important;
+ min-width: 0;
+}
+
+.ant-form-item.css-dev-only-do-not-override-142vneq {
+    width: 100%;
+    margin: 0 0 1em 0;
+}
+
+:where(.css-dev-only-do-not-override-142vneq).ant-form-item .ant-form-item-label >label {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    max-width: 100%;
+    height: 32px;
+    color: rgba(0, 0, 0, 0.88);
+    font-size: 14px;
+    width: 100%;
+    font-family: 'Inter',sans-serif;
+    font-weight: 14px;
+    font-weight: 400;
+}
+
+:where(.css-dev-only-do-not-override-142vneq).ant-checkbox+span{
+    font-family: 'Inter',sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.ant-picker.ant-picker-focused.ant-picker-outlined.css-dev-only-do-not-override-142vneq{
+  width: 100%;
+}
+
+.ant-form-item.confirm-item.css-dev-only-do-not-override-142vneq{
+    width: 100%;
+    height: 30px;
+    margin: 1em 0 2em ;
+}
+
+.ant-form-item.messageItem.css-dev-only-do-not-override-142vneq{
+  width: 100% !important;
+  height: 100px;
+}
+
+.ant-form-item.messageItem.css-dev-only-do-not-override-142vneq textarea{
+    height: 100px;
+  }
+
+button.ant-btn.css-dev-only-do-not-override-142vneq.ant-btn-default.ant-btn-color-default.ant-btn-variant-outlined.confirm-item {
+    width: 100%;
+    background: var(--blue);
+    color: white;
+    padding: 1em 0;
+    height: 40px;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+
+.ant-picker.ant-picker-outlined.css-dev-only-do-not-override-142vneq {
+    width: 100%;
+}
+
+:where(.css-dev-only-do-not-override-142vneq).ant-form-item-with-help .ant-form-item-explain {
+    height: 30px !important;
+    opacity: 1;
+}
+
+@media screen and (min-width: 768px) {
+    .appointment-section__body {
+        grid-template-columns: repeat(2, 1fr);
+    }  
+
+    .ant-form-item.css-dev-only-do-not-override-142vneq {
+        
+        margin: 0 0 3em 0;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .appointment-section__form .ant-form-item.css-dev-only-do-not-override-142vneq {
+        width: 48%;
+        margin: 0 0 3em 0;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .appointment-section__header {
+        flex-flow: row wrap;
+    }
+}

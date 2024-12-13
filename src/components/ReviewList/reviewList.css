@@ -1,0 +1,88 @@
+.reviews-section {
+  width: 100%;
+  max-width: 1512px;
+  padding: 4em 0;
+  box-sizing: border-box;
+  background: var(--blue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.reviews-carousel{
+  width: 90%;
+  max-width: 1024px;
+  margin: 1em auto;
+}
+
+.slide-img{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.slide-img img{
+    width: 100%;
+    object-fit: contain;
+}
+
+.slide__wrapper{
+  display: grid !important;
+  grid-template-columns: 1fr;
+  grid-gap:1em;
+  place-content: space-between;
+}
+
+.slide-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+}
+
+.quotes-img{
+    margin-bottom: 2em;
+}
+
+.slide-content h4{
+  width: 100%;   
+  font-family: 'Inter',sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  color: white;
+  text-align: center;
+  margin: 1em 0 1em 0;
+}
+
+.slide-content p{
+  font-family: 'Inter',sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: white;
+  line-height: 1.75em;
+  padding: 0 7em;
+  box-sizing: border-box;
+}
+
+:where(.css-dev-only-do-not-override-142vneq).ant-carousel .slick-dots-bottom {
+    bottom: -12px !important;
+}
+
+.appointment-section {
+    width: 100%;
+    max-width: 1512px;
+    margin: 0 auto;
+    padding: 3em 0;
+    box-sizing: border-box;
+}
+
+@media screen and (min-width: 1024px) {
+    .slide__wrapper {
+        grid-template-columns: 318px 706px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    :where(.css-dev-only-do-not-override-142vneq).ant-carousel .slick-dots-bottom {
+        bottom: 12px !important;
+    }
+}

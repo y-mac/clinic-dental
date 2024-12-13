@@ -1,0 +1,54 @@
+.brigthen {
+  width: 100%;
+  max-width: 1512px;
+  margin: 0 auto;
+  background: var(--blue);
+  padding: 2em 0;
+}
+
+.brigthen__wrapper{
+  width: 90%;
+  max-width: 1296px;
+  margin: 1em auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column wrap;
+}
+
+.brigthen__wrapper h3{
+  font-size: 36px;
+  font-family: 'Inter', sans-serif;
+  margin: 0 0 1em;
+  color: white;
+  font-weight: 400;
+}
+
+.brigthen__wrapper h3 b{
+    font-weight: bold;
+}
+
+.brigthen__wrapper p{
+  width: 90%;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 900px;
+  color: white;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  line-height: 1.5em;
+  font-size: 18px;  
+}
+
+.brigthen-btn {
+    font-family: 'Roboto',sans-serif;
+    font-size: 20px;
+    margin: 2em 0;
+    background: transparent;
+    border: 1px solid white;
+    padding: 1em;
+    box-sizing: border-box;
+    border-radius: 10px;
+    color: white;
+    font-weight: 400;
+}

@@ -1,0 +1,62 @@
+.subscribe-section {
+    width: 100%;
+    max-width: 1512px;
+    margin: 0 auto;
+    padding: 3em 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscribe-section__wrapper {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1296px;
+    background: var(--green);
+    padding: 2em;
+    box-sizing: border-box;
+}
+
+.subscribe-section__wrapper h4 {
+    font-size: 32px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    margin: 0 0 2em 0;
+    line-height: 1.25em;
+    font-weight: 600;
+}
+
+:where(.css-dev-only-do-not-override-142vneq).ant-btn-variant-outlined, :where(.css-dev-only-do-not-override-142vneq).ant-btn-variant-dashed {
+    border-color: #d9d9d9;
+    background: #ffffffeb;
+    width: 100%;
+    font-family: 'Inter',sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.subscribe__form-wrapper {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(30%, 270px));
+    grid-gap: 1em;
+    place-content: center;
+}
+
+.subscribe__form-wrapper .ant-form-item.css-dev-only-do-not-override-142vneq {
+    width: 100%;
+    margin: 0 0 3em 0;
+}
+
+@media screen and (min-width: 768px) {
+    .subscribe-section__wrapper h4 {
+        font-size: 48px;
+    }  
+
+    .subscribe__form-wrapper {
+        grid-gap: 1.5em;
+    }
+
+    
+}

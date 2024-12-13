@@ -1,0 +1,137 @@
+.doctors-section {
+    width: 100%;
+    max-width: 1512px;
+    margin: 0 auto;
+    background: var(--mediumGray);
+    padding: 1em 0;
+    box-sizing: border-box;
+}
+
+.doctors-section__wrapper{
+  width: 90%;
+  max-width: 1296px;
+  margin: 2em auto;
+}
+
+.doctors-section__header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-flow: column wrap;
+  align-items: flex-end;
+  border-bottom: 1px solid var(--darkGray);
+}
+
+.doctors-section__header p:first-child{
+    font-size: 48px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+}
+
+.doctors-section__header p:first-child span{
+  display: block;
+}
+
+.doctors-section__header p:last-child{
+    font-size: 56px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    margin:0.75em 0 0;
+}
+
+.doctors-section__header p:last-child b{
+  color: var(--yellow);
+}
+
+.carousel-wrapper{
+  margin: 3em 0;
+}
+
+.doctors-carusel__item-wrapper{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.doctors-carusel__item-wrapper h3 {
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+
+.doctors-carusel__item-wrapper p {
+  width: 90%;
+  margin: 0 auto;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  text-align: center;
+  padding: 0 1em;
+  box-sizing: border-box;
+}
+
+.appointment-button {
+  font-family: 'Roboto', sans-serif;
+  color: var(--blue);
+  margin: 1em auto 0;
+  display: block;
+  background: none;
+  padding: 0.75em;
+  font-size: 16px;
+  border: 1px solid var(--blue);
+  box-sizing: border-box;
+  border-radius: 7px;
+}
+
+:where(.css-dev-only-do-not-override-142vneq).ant-carousel .slick-prev {
+    position: absolute;
+    top: 50%;
+    width: 32px;
+    height: 32px;
+    left: 0;
+}
+
+:where(.css-dev-only-do-not-override-142vneq).ant-carousel .slick-next {
+    position: absolute;
+    top: 50%;
+    width: 32;
+    height: 32PX;
+    right: 0;
+}
+
+:where(.css-dev-only-do-not-override-142vneq).ant-carousel .slick-prev::after, :where(.css-dev-only-do-not-override-142vneq).ant-carousel .slick-next::after {
+  border: 5px solid black !important;
+}
+
+.doctors-carusel__item-wrapper figure{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 0 auto 1.5em;
+}
+
+.doctors-carusel__item-wrapper figure img{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: contain;
+}
+
+@media screen and (min-width:768px) {
+  .doctors-section__header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+  } 
+}
+
+@media screen and (min-width:1024px) {
+    
+    .doctors-section__header p:last-child{
+      margin:0;
+    }
+}
+
+
+
